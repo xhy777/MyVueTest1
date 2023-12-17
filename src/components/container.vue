@@ -20,8 +20,8 @@
             <el-menu-item index="2">学生管理</el-menu-item>
           </el-menu-item-group>
           <el-menu-item-group title="Group Two">
-            <el-menu-item index="3">楼栋管理</el-menu-item>
-            <el-menu-item index="4">单元管理</el-menu-item>
+            <el-menu-item index="3">业主管理</el-menu-item>
+            <el-menu-item index="4">楼栋管理</el-menu-item>
           </el-menu-item-group>
         </el-sub-menu>
         <el-menu-item index="1-2">

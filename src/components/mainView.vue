@@ -3,10 +3,14 @@ import { ref } from "vue"
 import Header from '@/components/header.vue'
 import Container from '@/components/container.vue'
 import ShowEmployments from '@/components/ShowEmployments.vue'
-// import BuildView from '@/components/bulidView.vue'
+import StudentView from '@/components/StudentView.vue'
+import OwnerView from '@/components/OwnerView.vue'
+import BuildView from '@/components/BuildView.vue'
 const webSiteTree: { [key: string]: any } = {
     '1': ShowEmployments,
-    //  '2': BuildView
+    '2': StudentView,
+    '3': OwnerView,
+    '4': BuildView
 }
 const currentTab = ref<string>('1')
 const updateHandle = (index: string) => {
